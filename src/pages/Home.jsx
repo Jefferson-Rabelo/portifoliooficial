@@ -11,11 +11,11 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }} // aparece suavemente
                 transition={{ duration: 1 }}
             >
-                Olá eu sou <span className="=text-blue-400">Jefferson</span>
+                Jefferson Developer
             </motion.h1>
 
             <motion.p
-                className="text-xl md:text2xl text-center ,ax-w2xl mb-6"
+                className="text-xl md:text-2xl text-center ax-w2xl mb-6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5, duration: 1 }}
@@ -39,6 +39,6 @@ export default function Home() {
                 Ver Projetos
             </motion.a>
 
-        </section>
+        </section >
     );
 }
